@@ -1,0 +1,13 @@
+{
+  "name": "electron-typescript-issue-sourcemap",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "electron ./dist/main.js"
+  },
+  "devDependencies": {
+    "electron": "^2.0.5",
+    "typescript": "^2.9.2"
+  }
+}
