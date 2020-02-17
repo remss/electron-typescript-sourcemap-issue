@@ -4,10 +4,16 @@ import * as path from "path";
 let mainWindow: Electron.BrowserWindow;
 
 function createWindow() {
+  console.log('hello from main')
+
   // Create the browser window.
   mainWindow = new BrowserWindow({
     height: 600,
     width: 800,
+    webPreferences: {
+        nodeIntegration: true,
+        nodeIntegrationInWorker: true,
+    }
   });
 
   // and load the index.html of the app.
