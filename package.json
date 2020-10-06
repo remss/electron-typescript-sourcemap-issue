@@ -7,7 +7,7 @@
     "start": "electron ./dist/main.js"
   },
   "dependencies": {
-    "electron": "^8.0.1"
+    "electron": "^8.5.2"
   },
   "devDependencies": {
     "typescript": "^3.4.0"
